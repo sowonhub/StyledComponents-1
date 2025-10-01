@@ -23,7 +23,7 @@
 $tag-color: #d7fa00;
 $gray: rgb(160, 160, 160);
 
-.header-container {
+.HeaderContainer {
   @include flex($justify: space-between, $align: center);
   padding: 20px 20px;
   background-color: black;
@@ -41,7 +41,7 @@ section {
   padding: 20px 40px;
 }
 
-.content-container {
+.ContentContainer {
   @include flex($direction: column, $align: flex-start, $gap: 5px);
   img {
     width: 300px;
